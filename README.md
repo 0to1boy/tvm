@@ -68,7 +68,7 @@ export TVM_HOME=/path/to/tvm
 export PYTHONPATH=$TVM_HOME/python:$PYTHONPATH
 ```
 
-### 4 Some make errors and solutions
+### 4. Some make errors and solutions
 1. Not found 'GLIBCXX_3.4.30'
 ```sh
 ~/anaconda3/envs/tvm-build/lib$ rm libstdc++.so
