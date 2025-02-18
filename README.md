@@ -43,7 +43,7 @@ conda install conda-build git llvmdev numpy pytest cython cmake bzip2 make scipy
 ```sh
 pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple decorator attrs typing-extensions tornado psutil 'xgboost>=1.1.0' cloudpickle pebble ml_dtypes pytest-order pylint appdirs ninja
 ```
-### 4. Configure and Build
+### 3. Configure and Build
 ```sh
 mkdir build
 cd build
@@ -68,7 +68,7 @@ export TVM_HOME=/path/to/tvm
 export PYTHONPATH=$TVM_HOME/python:$PYTHONPATH
 ```
 
-### 4.1 Some make errors and solutions
+### 4 Some make errors and solutions
 1. Not found 'GLIBCXX_3.4.30'
 ```sh
 ~/anaconda3/envs/tvm-build/lib$ rm libstdc++.so
